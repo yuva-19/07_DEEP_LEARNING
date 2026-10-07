@@ -1,0 +1,95 @@
+# ================================
+# Python Virtual Environment
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Python Cache
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Jupyter Notebook Checkpoints
+# ================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ================================
+# Jupyter / IPython
+# ================================
+.ipython/
+.profile_default/
+*.log
+
+# ================================
+# Datasets
+# ================================
+data/
+*/data/
+datasets/
+*/datasets/
+
+# ================================
+# Downloaded / Compressed Data
+# ================================
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# ================================
+# Model Weights / Checkpoints
+# ================================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.weights.h5
+*.onnx
+
+# ================================
+# Experiment Outputs
+# ================================
+runs/
+wandb/
+mlruns/
+tensorboard/
+logs/
+
+# ================================
+# Generated Results
+# ================================
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Large NLP pretrained embeddings
+glove.6B.100d.txt
+*.vec
